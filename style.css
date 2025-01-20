@@ -1,0 +1,60 @@
+/* unvisited link
+a:link{
+    color: #FF0000;
+}
+
+/* visited link */
+/* a:visited {
+    color: green;
+} */
+
+/* mouse hover link */
+/* a:hover {
+    color: #FF00FF;
+} */
+
+/* kur e selektojna textin */
+/* a:active {
+    color: blue;
+} */ 
+
+
+/* .desp::before{
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    content: "";
+    display: inline-block;
+}
+
+.desp::after{
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    content: "";
+    display: inline-block;
+} */
+
+div{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation: move 3s infinite;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+@keyframes move {
+    0%{
+        scale: 1;
+    }
+    50% {
+        scale: 0.5;
+    }
+    100%{
+        scale: 1;
+    }
+}
